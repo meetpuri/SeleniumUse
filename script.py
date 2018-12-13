@@ -86,4 +86,3 @@ writer.writerow(['Hotel_Name', 'Street', 'City', 'Country', 'Zip_Code', 'Phone_N
 for row in final_Details:
     writer.writerow(row)
 outfile.close()
-print "New Csv Created"
